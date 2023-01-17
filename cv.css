@@ -1,0 +1,44 @@
+body {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.principal {
+    display:flex;
+    flex-direction:column;
+}
+.cajaNombre {
+    width: 80%;
+}
+.nombre {
+    height: 80px;
+    background-color: brown;
+    color: white;
+}
+.txtNombre {
+    line-height: 80px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+.separadorNombre {
+    margin-top: 4px;
+    height: 20px;
+    background-color: lightblue;
+}
+.datosPrincipales {
+    color: brown;
+    font-size: 16px;
+    font-weight: bold;
+    margin:0;
+}
+.title {
+    color:orange;
+    font-size: 24px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin:2px;
+}
+.info {
+    list-style:square;
+    color: rgb(157, 194, 205);
+    font-size: 20px;
+    margin-top: 2px;
+}
